@@ -26,9 +26,16 @@ public class Controller {
         addEdgeWithDistance(juan, maria);
         addEdgeWithDistance(juan, carlos);
         addEdgeWithDistance(juan, ana);
+        addEdgeWithDistance(juan, pedro);
         addEdgeWithDistance(maria, pedro);
         addEdgeWithDistance(carlos, pedro);
         addEdgeWithDistance(ana, pedro);
+        addEdgeWithDistance(ana, carlos);
+        addEdgeWithDistance(maria, carlos);
+        addEdgeWithDistance(maria, ana);
+
+
+
     }
 
     private void addEdgeWithDistance(Person personOne, Person personTwo) {

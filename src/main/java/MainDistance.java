@@ -7,7 +7,7 @@ public class MainDistance {
         controller.testDistance();
 
         List<Person> person1 = controller.recommendationsFriendsDistance(controller.juan, 100);
-        List<Person> person2 = controller.recommendationsFriendsDistance(controller.ana, 290);
+        List<Person> person2 = controller.recommendationsFriendsDistance(controller.ana, 260);
         List<Person> person3 = controller.recommendationsFriendsDistance(controller.pedro, 10);
         List<Person> person4 = controller.recommendationsFriendsDistance(controller.carlos, 60);
         List<Person> person5 = controller.recommendationsFriendsDistance(controller.maria, 49);
